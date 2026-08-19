@@ -87,6 +87,11 @@ function notify(title: string, body: string): void {
         notifyOSC777(title, body);
     }
 
+    // Extra bell: triggers per-tab visual indicators (Ghostty bell-features: 🔔 title, border)
+    if (!process.env.WT_SESSION) {
+        process.stdout.write("\x07");
+    }
+
     runSoundHook();
 }
 
