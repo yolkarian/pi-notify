@@ -33,7 +33,7 @@ pi install npm:pi-notify
 Or via git:
 
 ```bash
-pi install git:github.com/ferologics/pi-notify
+pi install git:github.com/yolkarian/pi-notify
 ```
 
 Restart Pi.

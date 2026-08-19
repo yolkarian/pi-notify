@@ -13,23 +13,23 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/ferologics/pi-notify.git"
+        "url": "git+https://github.com/yolkarian/pi-notify.git"
     },
-    "homepage": "https://github.com/ferologics/pi-notify#readme",
+    "homepage": "https://github.com/yolkarian/pi-notify#readme",
     "bugs": {
-        "url": "https://github.com/ferologics/pi-notify/issues"
+        "url": "https://github.com/yolkarian/pi-notify/issues"
     },
     "pi": {
         "extensions": [
             "index.ts"
         ],
-        "video": "https://raw.githubusercontent.com/ferologics/pi-notify/master/demo.mp4"
+        "video": "https://raw.githubusercontent.com/yolkarian/pi-notify/master/demo.mp4"
     },
     "peerDependencies": {
         "@earendil-works/pi-coding-agent": "*"
     },
     "piRelease": {
-        "repo": "ferologics/pi-notify",
+        "repo": "yolkarian/pi-notify",
         "branch": "master",
         "subtreePublishRecipe": "publish-pi-notify"
     }
