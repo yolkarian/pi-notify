@@ -2,6 +2,8 @@
 
 A [Pi](https://www.npmjs.com/package/@earendil-works/pi-coding-agent) extension that sends a native desktop notification when the agent finishes and is waiting for input.
 
+> **Fork notice**: This is a fork of [ferologics/pi-notify](https://github.com/ferologics/pi-notify) with local modifications. The upstream project lives there.
+
 ![pi-notify demo](demo.gif)
 
 ## Compatibility
